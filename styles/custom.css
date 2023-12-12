@@ -84,7 +84,10 @@
 }
 
 .nav-link.active{
-    border: 2px solid;
+    text-transform: uppercase;
+    border: 1px solid;
+    padding-left: 5px;
+    background-color: whitesmoke;
 }
 #myBtn{
     display: none;
@@ -153,7 +156,8 @@
     
 }
 .bac-1{
-background-image: url("../images/warsaw.jpg");
+    background-image: url("../images/warsaw.jpg");
+    background-color: burlywood;
     background-size: fit;
     background-repeat: no-repeat;
 }

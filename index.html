@@ -44,8 +44,14 @@
                     <li class="nav-item">
                         <a class="nav-link" href="aboutus.html">About Us</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="properties.html">Properties</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Properties
+                        </a>
+                        <ul class="dropdown-menu">
+                            <li><a class="dropdown-item" href="longproperties.html">Long Term Rent</a></li>
+                            <li><a class="dropdown-item" href="shortproperties.html">Short Term Rent</a></li>
+                        </ul>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="contact.html">Contact</a>
@@ -55,21 +61,20 @@
         </div>
     </nav>
     <div class="my-5 pt-5 container background">
-        <div class="mt-5 pb-3 m container-fluid text-center bg-light">
+        <div class="mx-auto pb-3 mt-5 container-fluid text-center bg-light">
             <div class="row align-items-start mx-1">
                 <div class="mt-5 col-sm-6">
                     <div class="col mt-4 ">
-                        <span class="m-2 p-3 container bg-body-tertiary rounded shadow"><i class="fa-solid fa-phone"> +48 664 581
-                                675</i></span>
+                        <span class="m-2 p-3 container bg-body-tertiary rounded shadow"><i class="fa-solid fa-phone"><strong>+48 </strong>664 581 675</i></span>
                         <h1 class="mt-5 fs-1">Find A Great Place To Stay In Warsaw</h1>
                         <p class="mt-5">We have a wide range of places contact us for more information below.</p>
                     </div>
-                    <button class="btn btn-success border-dark shadow">Contact Us</button>
+                    <button class="btn btn-warning-bg-subtle border-dark shadow">Contact Us</button>
                 </div>
                 <div class="mt-3 border border-dark py-5 px-4 bg-white col-sm-6 shadow">
                     <h6 class="mb-4">Have a question?</h6>
                     <h2 class="mb-5">Contact Us</h2>
-                    <form class="me-5">
+                    <form class="mx-auto">
                         <div class="mx-3">
                             <input type="text" class="mb-3 form-control" id="exampleInputName1"
                                 aria-describedby="nameHelp" placeholder="Your Name">
